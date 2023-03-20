@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lampada Dnc</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" href="./imagens/lampada_acesa.svg">
+</head>
+<body>
+
+  <header>
+    <img id="logotipo_dnc" src="./imagens/dnc_logo.png" alt="Dnc Logo" width="120px">
+    <h1 id="tituloLamp">Lâmpada DNC</h1>
+  </header>
+  <section id="caixaSecao">
+    <img src="./imagens/lampada_apagada.svg" alt="Lâmpada Desligada" id="lampada"><br>
+    <input class="botao" type="button" value="Ligar" id="liga" onclick="ligar()">
+    <input class="botao" type="button" value="Desligar" id="desliga" onclick="desligar()"><br>
+    <a href="index.html">
+      <input class="botaoReset" type="button" value="Reset">
+    </a>
+  </section>
+
+  <script src="./javascript/lampada.js"></script>
+
+</body>
+</html>
